@@ -1,0 +1,115 @@
+.section-of-team {
+    background-color: var(--for-one-white);
+    padding-top: 94px;
+    padding-bottom: 94px;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.our-team {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.7;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.ot-list {
+    display: flex;
+}
+
+.ot-list .team-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.team-item:last-child {
+    margin-right: 0;
+}
+
+
+.team-item {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team-item {
+    background-color: var(--background-colour);
+}
+
+.name-role {
+    padding: 30px;
+}
+
+.name-surname {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.p-textns {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--light-grey-colour);
+    text-align: center;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.media-item-list {
+    display: flex;
+    margin-right: 10px;
+    align-items: center;
+    padding: 0;
+}
+
+.media-item {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: var(--background-colour);
+    color: var(--for-media);
+    fill: currentColor;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.media-item-list:last-child {
+    margin-right: 0px;
+    gap: 10px;
+}
+
+
+.media-item:hover,
+.media-item:focus {
+    background-color: var(--accent-text-colour);
+    color: var(--background-colour);
+}
+
+.instagram:hover,
+.instagram:focus {
+    fill: var(--background-colour);
+}
+
+.twitter:hover,
+.twitter:focus {
+    fill: var(--background-colour);
+}
+
+.facebook:hover,
+.facebook:focus {
+    fill: var(--background-colour);
+}
+
+.linkedin:hover,
+.linkedin:focus {
+    fill: var(--background-colour);
+}

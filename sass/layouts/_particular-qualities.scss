@@ -1,0 +1,50 @@
+.section-osobennosti {
+    padding-top: 94px;
+}
+
+.nashi-osobennosti {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.7;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.na-os-list {
+    display: flex;
+    padding-left: 0px;
+}
+
+.li-na-os-list {
+    margin-right: 30px;
+}
+
+.diagram-fon,
+.clock-fon,
+.antenna-fon,
+.astronaut-fon {
+    background-color: var(--for-one-white);
+    width: 270px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.our-sp {
+    margin-top: 0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.p-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--light-grey-colour);
+    margin: 0;
+}

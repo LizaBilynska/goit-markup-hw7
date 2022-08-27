@@ -1,0 +1,174 @@
+.section-footer {
+    background-color: var(--grey-colour);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+}
+
+.where {
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--background-colour);
+    background-color: var(--grey-colour);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.where:hover,
+.where:focus {
+    color: var(--accent-text-colour);
+}
+
+.div-section-footer {
+    margin-right: 70px;
+}
+
+.address-footer {
+    display: flex;
+}
+
+.div-footer-join {
+    margin-right: 93px;
+}
+
+.join-footer {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--background-colour);
+}
+
+.footer-rassilka {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--background-colour);
+}
+
+.media-footer-list {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.media-footer-li {
+    margin-right: 10px;
+}
+
+.media-footer-li:last-child {
+    margin-right: 0;
+}
+
+.media-item-footer {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.media-item-footer:hover,
+.media-item-footer:focus {
+    background-color: var(--accent-text-colour);
+}
+
+.instagram-footer,
+.twitter-footer,
+.facebook-footer,
+.linkedin-footer {
+    fill: var(--background-colour);
+}
+
+
+.instagram-footer:focus,
+.instagram-footer:hover {
+    fill: var(--background-colour)
+}
+
+.twitter-footer:focus,
+.twitter-footer:hover {
+    fill: var(--background-colour)
+}
+
+
+.facebook-footer:focus,
+.facebook-footer:hover {
+    fill: var(--background-colour)
+}
+
+.linkedin-footer:focus,
+.linkedin-footer:hover {
+    fill: var(--background-colour)
+}
+
+.online-form {
+    display: flex;
+}
+
+.online-input {
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: transparent;
+    padding-right: 16px;
+    padding-left: 16px;
+    margin-right: 12px;
+}
+
+.online-btn {
+    width: 200px;
+    height: 50px;
+    background: var(--accent-text-colour);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: 1px transparent;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+    color: var(--background-colour);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 28px;
+    letter-spacing: 0.06em;
+}
+
+.send-icon {
+    fill: var(--background-colour);
+    margin-left: 10px;
+}
+
+.footer-list {
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.li-fl:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.logo-three {
+    color: var(--background-colour);
+    margin-bottom: 20px;
+}
+
+.section-footer .container {
+    display: flex;
+    align-items: baseline;
+}

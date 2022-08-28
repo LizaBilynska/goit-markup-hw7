@@ -1,11 +1,12 @@
-.header-redact {
+.header {
     border-bottom: 1px solid var(--for-header);
+
+    & .container {
+        display: flex;
+        align-items: center;
+    }
 }
 
-.header-redact .container {
-    display: flex;
-    align-items: center;
-}
 
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -45,7 +46,26 @@
     display: block;
     display: flex;
     align-items: center;
+
+    & .header-list-item {
+        margin-right: 50px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    & .phone-contacts {
+        margin-right: 0;
+    }
+
+    &:hover,
+    &:focus {
+        color: var(--accent-text-colour);
+    }
 }
+
+
 
 .header-list-two {
     margin: 0;
@@ -53,41 +73,24 @@
     display: block;
     display: flex;
     align-items: center;
+
+    & .header-list-two-item {
+        margin-right: 50px;
+    }
+
+    &:hover,
+    &:focus {
+        color: var(--accent-text-colour);
+    }
 }
 
-.header-list .item {
-    margin-right: 50px;
-}
 
-.header-list .item:last-child {
-    margin-right: 0;
-}
-
-.nav-redact {
+.navigation {
     margin-right: auto;
     display: flex;
     align-items: center;
 }
 
-.header-list .phone-contacts {
-    margin-right: 0;
-}
-
-.header-list:hover,
-.header-list:focus,
-.footer-list:hover .footer-list:focus {
-    color: var(--accent-text-colour);
-}
-
-
-.header-list-two .item {
-    margin-right: 50px;
-}
-
-.header-list-two:hover,
-.header-list-two:focus {
-    color: var(--accent-text-colour);
-}
 
 .header-buttons {
     position: relative;
@@ -101,15 +104,28 @@
     display: inline-block;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
+    &:hover,
+    &:focus {
+        color: var(--accent-text-colour);
+    }
+
 }
 
 
-.header-buttons:hover,
-.header-buttons:focus {
-    color: var(--accent-text-colour);
+.phone {
+    color: var(--light-grey-colour);
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    fill: currentColor;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:focus,
+    &:hover {
+        color: var(--accent-text-colour);
+    }
 }
 
-.phone,
 .email {
     color: var(--light-grey-colour);
     font-weight: 500;
@@ -117,6 +133,11 @@
     align-items: center;
     fill: currentColor;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:focus,
+    &:hover {
+        color: var(--accent-text-colour);
+    }
 }
 
 .email-envelope {
@@ -125,20 +146,9 @@
 
 .smartphone {
     margin-right: 10px;
-}
 
-.smartphone:hover,
-.smartphone:focus {
-    fill: var(--accent-text-colour);
-}
-
-
-.phone:focus,
-.phone:hover {
-    color: var(--accent-text-colour);
-}
-
-.email:focus,
-.email:hover {
-    color: var(--accent-text-colour);
+    &:hover,
+    &:focus {
+        fill: var(--accent-text-colour);
+    }
 }

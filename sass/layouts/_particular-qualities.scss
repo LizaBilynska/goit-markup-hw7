@@ -1,8 +1,8 @@
-.section-osobennosti {
+.particular-qualities {
     padding-top: 94px;
 }
 
-.nashi-osobennosti {
+.our-qualities {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.7;
@@ -11,19 +11,19 @@
     margin-bottom: 50px;
 }
 
-.na-os-list {
+.our-qualities-list {
     display: flex;
     padding-left: 0px;
 }
 
-.li-na-os-list {
+.our-qualities-list-item {
     margin-right: 30px;
 }
 
-.diagram-fon,
-.clock-fon,
-.antenna-fon,
-.astronaut-fon {
+.diagram-background,
+.clock-background,
+.antenna-background,
+.astronaut-background {
     background-color: var(--for-one-white);
     width: 270px;
     height: 120px;
@@ -33,7 +33,7 @@
     margin-bottom: 20px;
 }
 
-.our-sp {
+.our-special-quality {
     margin-top: 0;
     font-weight: 700;
     font-size: 14px;
@@ -41,7 +41,7 @@
     text-transform: uppercase;
 }
 
-.p-text {
+.our-qualities-text {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;

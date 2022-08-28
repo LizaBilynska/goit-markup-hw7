@@ -1,0 +1,40 @@
+.our-works-list {
+    padding-bottom: 94px;
+    padding-top: 100px;
+}
+
+.list-portfolio {
+    display: flex;
+    margin-bottom: 50px;
+    padding-left: 0;
+    justify-content: center;
+
+    & .list-portfolio-item {
+        margin-right: 8px;
+    }
+
+    & :last-child {
+        margin-right: 0;
+    }
+}
+
+
+.buttons-portfolio {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 500;
+    text-align: center;
+    font-family: inherit;
+    background-color: var(--for-one-white);
+    border: 1px transparent;
+    border-radius: 4px;
+    padding: 6px 22px;
+    min-width: 73px;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+}

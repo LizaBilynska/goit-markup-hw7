@@ -1,4 +1,4 @@
-.section-what-we-do {
+.what-we-do-section {
     padding-bottom: 94px;
     padding-top: 94px;
 
@@ -14,20 +14,22 @@
 }
 
 
-.wwd-list {
+.what-we-do-list {
     display: flex;
     margin-bottom: 0;
     margin-top: 0;
     padding-left: 0;
+
+    & .what-we-do-photo {
+        margin-right: 30px;
+
+        &:last-child {
+            margin-right: 0px;
+        }
+    }
+
 }
 
-.wwd-list .photoes {
-    margin-right: 30px;
-}
-
-.wwd-list .photoes:last-child {
-    margin-right: 0px;
-}
 
 .what-we-do-div {
     position: relative;

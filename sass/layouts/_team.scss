@@ -85,22 +85,9 @@
 
 }
 
-.instagram:hover,
-.instagram:focus {
-    fill: var(--background-colour);
-}
 
-.twitter:hover,
-.twitter:focus {
-    fill: var(--background-colour);
-}
-
-.facebook:hover,
-.facebook:focus {
-    fill: var(--background-colour);
-}
-
-.linkedin:hover,
-.linkedin:focus {
+.media-item:hover,
+.media-item:focus {
+    background-color: var(--accent-text-colour);
     fill: var(--background-colour);
 }

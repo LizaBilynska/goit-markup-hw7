@@ -1,4 +1,4 @@
-.what-we-do-section {
+.what-we-do__section {
     padding-bottom: 94px;
     padding-top: 94px;
 
@@ -14,13 +14,13 @@
 }
 
 
-.what-we-do-list {
+.what-we-do__list {
     display: flex;
     margin-bottom: 0;
     margin-top: 0;
     padding-left: 0;
 
-    & .what-we-do-photo {
+    & .what-we-do__photo {
         margin-right: 30px;
 
         &:last-child {
@@ -31,11 +31,11 @@
 }
 
 
-.what-we-do-div {
+.what-we-do__div {
     position: relative;
 }
 
-.what-we-do-wrap {
+.what-we-do__wrap {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;

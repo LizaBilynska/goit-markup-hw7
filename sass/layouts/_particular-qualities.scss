@@ -11,19 +11,19 @@
     margin-bottom: 50px;
 }
 
-.our-qualities-list {
+.our-qualities__list {
     display: flex;
     padding-left: 0px;
 }
 
-.our-qualities-list-item {
+.our-qualities__list-item {
     margin-right: 30px;
 }
 
-.diagram-background,
-.clock-background,
-.antenna-background,
-.astronaut-background {
+.diagram__background,
+.clock__background,
+.antenna__background,
+.astronaut__background {
     background-color: var(--for-one-white);
     width: 270px;
     height: 120px;
@@ -41,7 +41,7 @@
     text-transform: uppercase;
 }
 
-.our-qualities-text {
+.our-qualities__text {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;

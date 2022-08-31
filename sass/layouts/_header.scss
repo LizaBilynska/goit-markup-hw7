@@ -21,7 +21,7 @@
 
 }
 
-.logo-two {
+.logo__two {
     color: var(--black-colour);
     display: flex;
 
@@ -40,14 +40,14 @@
     border-radius: 2px;
 }
 
-.header-list {
+.header__list {
     margin: 0;
     padding: 0;
     display: block;
     display: flex;
     align-items: center;
 
-    & .header-list-item {
+    & .header__list-item {
         margin-right: 50px;
 
         &:last-child {
@@ -67,14 +67,14 @@
 
 
 
-.header-list-two {
+.header__list-two {
     margin: 0;
     padding: 0;
     display: block;
     display: flex;
     align-items: center;
 
-    & .header-list-two-item {
+    & .header__list-two-item {
         margin-right: 50px;
     }
 
@@ -92,7 +92,7 @@
 }
 
 
-.header-buttons {
+.header__buttons {
     position: relative;
     font-weight: 500;
     font-size: 14px;

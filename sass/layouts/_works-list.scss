@@ -1,4 +1,4 @@
-.works-list-link {
+.works-list__link {
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     &:focus,
@@ -17,25 +17,25 @@
     margin-bottom: -30px;
 }
 
-.works-list .works-list-item {
+.works-list .works-list__item {
     width: 370px;
     margin-right: 30px;
     margin-bottom: 30px;
 
 }
 
-.works-list-item:hover .portfolio-up-text,
-.works-list-item:focus .portfolio-up-text {
+.works-list__link:hover .portfolio__up-text,
+.works-list__link:focus .portfolio__up-text {
     transform: translateY(0);
 }
 
 
-.portfolio-up-text-wrap {
+.portfolio__up-text__wrap {
     position: relative;
     overflow: hidden;
 }
 
-.portfolio-up-text {
+.portfolio__up-text {
     position: absolute;
     text-align: start;
     top: 0;
@@ -54,7 +54,7 @@
 
 }
 
-.works-list-description {
+.works-list__description {
     padding: 20px 24px;
     border: 1px solid var(--smth-grey);
 }
